@@ -1,0 +1,30 @@
+{
+  "name": "WordPress MCP Server",
+  "description": "An open-source MCP server that connects AI tools to WordPress for publishing pages and managing media.",
+  "env": {
+    "WORDPRESS_SITE_URL": {
+      "description": "Base URL of your WordPress site (e.g. https://example.com)",
+      "required": true
+    },
+    "WORDPRESS_USERNAME": {
+      "description": "WordPress username with Application Password access",
+      "required": true
+    },
+    "APPLICATION_PASSWORD": {
+      "description": "WordPress Application Password (not your main password)",
+      "required": true
+    },
+    "MCP_TOKEN": {
+      "description": "Secure token used to authenticate MCP requests",
+      "required": true
+    }
+  },
+  "hooks": {
+    "postcreate": {
+      "commands": [
+        "echo '✅ WordPress MCP deployed successfully!'",
+        "echo '🔐 Remember to restrict access to this service and rotate credentials regularly.'"
+      ]
+    }
+  }
+}
