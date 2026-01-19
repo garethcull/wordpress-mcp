@@ -1,6 +1,6 @@
 # WordPress MCP Server
 
-[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run?git_repo=https://github.com/garethcull/wordpress-mcp)
+[![Run on Google Cloud](https://www.prototypr.ai/static/img/run_on_google_cloud_cta.webp)](https://deploy.cloud.run?git_repo=https://github.com/garethcull/wordpress-mcp)
 
 A Model Context Protocol (MCP) server that exposes WordPress pages, posts, and media assets to MCP clients such as Prototypr.ai, Cursor, or OpenAI’s Responses API.
 
@@ -220,7 +220,7 @@ Supported methods:
 
 This MCP server is designed to be deployed on Google Cloud Run.
 
-[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run?git_repo=https://github.com/garethcull/wordpress-mcp)
+[![Run on Google Cloud](https://www.prototypr.ai/static/img/run_on_google_cloud_cta.webp)](https://deploy.cloud.run?git_repo=https://github.com/garethcull/wordpress-mcp)
 
 Important notes:
 
